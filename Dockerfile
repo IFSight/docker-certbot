@@ -3,11 +3,11 @@ MAINTAINER IF Fulcrum "fulcrum@ifsight.net"
 
 # from https://github.com/xataz/dockerfiles/tree/master/letsencrypt
 
-ARG CERTBOT_VER=v0.9.3
+ARG CERTBOT_VER=v0.18.2
 
 LABEL description="Letsencrypt based on alpine" \
-      tags="latest 0.9.3 0.9" \
-      build_ver="2016101401"
+      tags="latest 0.18.2 0.18" \
+      build_ver="2017092001"
 
 RUN BUILD_DEPS="py-pip \
             gcc \
